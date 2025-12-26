@@ -35,18 +35,18 @@ export default function Contact() {
             <div className="space-y-4">
               <div>
                 <h3 className="font-semibold text-gray-400">Email</h3>
-                <p>davasatria@email.com</p>
+                <p>davasatriia@email.com</p>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-400">GitHub</h3>
-                <a href="https://github.com/username" className="text-blue-400 hover:text-blue-300">
-                  github.com/username
+                <a href="https://github.com/dapaa-ui" className="text-blue-400 hover:text-blue-300">
+                  github.com/dapaa-ui
                 </a>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-400">LinkedIn</h3>
-                <a href="https://linkedin.com/in/username" className="text-blue-400 hover:text-blue-300">
-                  linkedin.com/in/username
+                <a href="https://linkedin.com/in/dava-satria-pratama" className="text-blue-400 hover:text-blue-300">
+                  linkedin.com/in/dava-satria-pratama
                 </a>
               </div>
               <div>

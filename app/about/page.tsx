@@ -29,7 +29,7 @@ export default function About() {
               </div>
               <div className="flex justify-between items-center py-2">
                 <span className="text-gray-400">Email</span>
-                <span className="text-blue-400 font-medium">davasatria@email.com</span>
+                <span className="text-blue-400 font-medium">davasatriia@email.com</span>
               </div>
             </div>
           </div>
