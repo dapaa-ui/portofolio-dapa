@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <section className="py-20 min-h-screen">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
+    <section className="py-12 sm:py-16 lg:py-20 min-h-screen">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Tentang Saya
           </h1>
@@ -11,8 +11,8 @@ export default function About() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12 mb-16">
-          <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-12 lg:mb-16">
+          <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-4 sm:p-6 lg:p-8">
             <h2 className="text-2xl font-semibold mb-6 text-white">Biodata</h2>
             <div className="space-y-4">
               <div className="flex justify-between items-center py-2 border-b border-gray-800">
@@ -34,7 +34,7 @@ export default function About() {
             </div>
           </div>
           
-          <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8">
+          <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-4 sm:p-6 lg:p-8">
             <h2 className="text-2xl font-semibold mb-6 text-white">Tentang</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Saya adalah seorang full stack developer dengan passion dalam mengembangkan aplikasi web modern. 
@@ -50,8 +50,8 @@ export default function About() {
         
         <div>
           <h2 className="text-2xl font-semibold mb-8 text-center text-white">Keahlian</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 p-6 rounded-xl text-center hover:border-blue-500/50 transition-all duration-300 group">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6">
+            <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 p-4 sm:p-6 rounded-xl text-center hover:border-blue-500/50 transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg mx-auto mb-3 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <span className="text-white font-bold">F</span>
               </div>
